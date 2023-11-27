@@ -1,0 +1,22 @@
+#headerbuttoncontainers
+{
+    margin-right:285px
+}
+.hbtn{
+    height: 40px;
+    width: 100px;
+    border-radius: 8%;
+    border: none;
+    background-color: white;
+    font-weight: bolder;
+}
+#login
+{
+background-color: lightseagreen;
+color: white;
+}
+#signup
+{
+background-color: white;
+color: lightseagreen;
+}

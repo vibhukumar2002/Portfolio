@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payemnt Card info</title>
+    <link rel="icon" href="Land of boxes.jpg">
+    <link rel="stylesheet" href="cardinfo.css">
+</head>
+<body>
+    <form action="sameaddress.html" id="cardinfoform" target="_blank">
+        <h3>
+            Enter your payement Details
+        </h3>
+
+       <div id="centeredpaymentinfo">
+        <input type="text" placeholder="Enter card number" class="inp"><br>
+        <input type="text" class="inp" placeholder="cardholder name">
+        
+
+            <br>
+                <label for="type">Select Card type</label>
+                <select name="type" id="select"  >
+                    <option value="visa">visa</option>
+                    <option value="matercard">mastercard</option>
+                    <option value="creadit">Creaditcard</option>
+                    <option value="Debitcard">Debitcard</option>
+                </select>
+            
+          <br>
+            
+               <div id="bottomcontainer">
+                <input type="text" placeholder="Enter city" id="city">
+                <div id="smallinpcontainer">
+                    <input type="text" class="smallinp" placeholder="cvv">
+                    <input type="text" class="smallinp" placeholder="pincode">
+                </div>
+               </div>
+            
+
+       
+       </div>
+
+       <input type="submit" id="submitbutton" value="Cheakout">
+      <button id="newaddressbutton"> <a href="diffaddress.html" target="_blank" id="addaddress">Add New Shipping address and cheakout</a></button>
+
+    </form>
+</body>
+</html>

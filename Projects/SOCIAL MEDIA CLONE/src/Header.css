@@ -1,0 +1,20 @@
+#headercontainer
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 2px rgba(0,0,0,0.14);
+    padding: 20px;
+}
+#appname
+{
+    margin-left: 250px;
+}
+#searchbar{
+    height: 50px;
+    width: 250px;
+    border-radius: 7%;
+    background-color: rgba(0,0,0,0.09);
+    border: none;
+}

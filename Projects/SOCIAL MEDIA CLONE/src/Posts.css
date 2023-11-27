@@ -1,0 +1,9 @@
+#postscontainer
+{
+    width: 65%;
+    
+    
+    align-items: center;
+    margin-left: 400px;
+    border-bottom: 2px solid rgba(0,0,0,0.09);
+}

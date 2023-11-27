@@ -1,0 +1,14 @@
+#infofootercontainer
+{   padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.texxt
+{
+    margin-bottom: 2px;
+}
+#tex
+{
+    margin-bottom: 2px;
+}

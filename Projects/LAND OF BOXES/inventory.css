@@ -1,0 +1,32 @@
+#mainform{
+    display: grid;
+    place-items: center;
+    
+}
+body{
+    background-color:burlywood ;
+}
+#maincontainer
+{
+   width: 100%;
+   height: 400px;
+    background-image: url(Land\ of\ boxes.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#inventorytable{
+    background-color: lightgoldenrodyellow;
+}
+#purchasebutton
+{
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 13%;
+    background-color: brown;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+#purchasebutton:hover{
+    transform: scale(1.7);
+    transition: 2000ms;
+}

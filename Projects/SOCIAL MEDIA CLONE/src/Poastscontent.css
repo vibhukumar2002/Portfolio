@@ -1,0 +1,15 @@
+#postscontentcontainer
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contentimage
+{
+    height: 400px;
+    width: 200px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.contentimage:hover{
+    background-color: rgba(0,0,0,0.2);
+}

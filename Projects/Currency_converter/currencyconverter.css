@@ -1,0 +1,49 @@
+body{
+    display: grid;
+    place-items: center;
+    background-image: url(CCR\ IMAGE.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 15px;
+    border-radius: 10%;
+    
+    
+   
+}   
+#maincontainer{
+    margin-top: 13%;
+    display: grid;
+    place-items: center;
+    background-color: lightgoldenrodyellow;
+    border : solid 4px lightskyblue ;
+    border-radius: 15%;
+    
+}
+#calc{
+    margin-top: 20px;
+    width: 90%;
+    height: 35px;
+    border: solid 3px lightskyblue;
+    background-color:gold;
+    border-radius: 10%;
+}
+.inp
+{
+    width: 90%;
+    height: 35px;
+    border: solid 3px darkgreen;
+    background-color:lightgreen;
+    color: aliceblue;
+}
+.inp:hover{
+    transform: scale(1.5);
+    transition: 1500ms;
+}
+#calc:hover{
+    transform: scale(1.2);
+    transition: 1200ms;
+}
+#reference{
+    display: grid;
+    place-items: center;
+}

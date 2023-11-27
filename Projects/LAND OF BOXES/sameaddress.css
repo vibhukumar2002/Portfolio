@@ -1,0 +1,15 @@
+#maincontainer
+{
+    display: grid;
+    place-items: center;
+    background-image: url(Land\ of\ boxes.jpg);
+    background-size: 100%;
+}
+body
+{
+    background-color: burlywood;
+}
+i{
+line-height: 50px;
+font-weight: 400;
+}

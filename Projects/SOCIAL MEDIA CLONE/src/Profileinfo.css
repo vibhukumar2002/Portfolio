@@ -1,0 +1,13 @@
+#profileinfocontainer{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+    border-bottom: 2px solid rgba(0,0,0,0.09);
+}
+#profilepic
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}

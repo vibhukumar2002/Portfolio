@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency Converter</title>
+    <link rel="stylesheet" href="currencyconverter.css">
+</head>
+<body>
+    <div id="maincontainer">
+        <h2>Currency Converter</h2>
+
+        <div id="reference">
+            <p>Currency Symbols Reference</p>
+        <select name="symbols" id="symbols" class="inp">
+            
+        </select>
+        </div>
+
+        <div id="fromdiv">
+            <p>From currency</p>
+        <select name="Fromcur" id="fromcur" class="inp">
+            
+        </select>
+        </div>
+
+        <div id="todiv"><p>To currency</p>
+            <select name="tocur" id="tocur" class="inp">
+                
+            </select></div>
+
+            <div id="amountdiv">
+                <p>Enter Amount to convert</p>
+                <input type="number" id="amount" class="inp" placeholder="Enter the Amount">
+            </div>
+
+        <button id="calc">Calculate</button>
+
+        <div id="output">
+            <p id="result" ></p>
+        </div>
+
+        
+
+    </div>
+    <script src="currencyconverter.js"></script>
+</body>
+</html>

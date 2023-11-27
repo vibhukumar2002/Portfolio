@@ -1,0 +1,35 @@
+#maincontainer{
+    display: grid;
+    place-items: center;
+}
+#mainform
+{
+    display: grid;
+    place-items: center;
+   background-color: lightgoldenrodyellow;
+}
+body
+{
+    background-color: burlywood;
+}
+#submitbutton
+{
+    margin-top: 10px;
+    height: 30px;
+    
+    border-radius: 13%;
+    
+    background-color: brown;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+#submitbutton:hover{
+    transform: scale(1.3);
+    transition: 1300ms;
+}
+body{
+    background-image: url(Land\ of\ boxes.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
